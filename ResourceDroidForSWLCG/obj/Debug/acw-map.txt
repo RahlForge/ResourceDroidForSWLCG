@@ -1,0 +1,4 @@
+SWLCGCounter.MainActivity, ResourceDroidForSWLCG;md5e265a7ba1dc02b2b93c2b15eed90e38a.MainActivity
+SWLCGCounter.MainActivity, ResourceDroidForSWLCG, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5e265a7ba1dc02b2b93c2b15eed90e38a.MainActivity
+SWLCGCounter.MainActivity;md5e265a7ba1dc02b2b93c2b15eed90e38a.MainActivity
+swlcgcounter.MainActivity;md5e265a7ba1dc02b2b93c2b15eed90e38a.MainActivity
