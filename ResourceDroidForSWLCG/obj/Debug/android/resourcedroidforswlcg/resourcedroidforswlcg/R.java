@@ -9,19 +9,20 @@ package resourcedroidforswlcg.resourcedroidforswlcg;
 
 public final class R {
     public static final class array {
-        public static final int dark_side_factions=0x7f050008;
-        public static final int faction_imperial_navy=0x7f050003;
-        public static final int faction_jedi=0x7f050001;
+        public static final int contents=0x7f040000;
+        public static final int dark_side_factions=0x7f040009;
+        public static final int faction_imperial_navy=0x7f040004;
+        public static final int faction_jedi=0x7f040002;
         /** These string-arrays will store the individual faction names [1] and starting reserves [2]
          */
-        public static final int faction_rebel_alliance=0x7f050000;
-        public static final int faction_scum_and_villainy=0x7f050005;
-        public static final int faction_sith=0x7f050004;
-        public static final int faction_spies_and_smugglers=0x7f050002;
+        public static final int faction_rebel_alliance=0x7f040001;
+        public static final int faction_scum_and_villainy=0x7f040006;
+        public static final int faction_sith=0x7f040005;
+        public static final int faction_spies_and_smugglers=0x7f040003;
         /** Spinner arrays
          */
-        public static final int force_alignment=0x7f050006;
-        public static final int light_side_factions=0x7f050007;
+        public static final int force_alignment=0x7f040007;
+        public static final int light_side_factions=0x7f040008;
     }
     public static final class attr {
     }
@@ -40,6 +41,7 @@ public final class R {
         public static final int rulebook=0x7f02000b;
     }
     public static final class id {
+        public static final int about=0x7f060010;
         public static final int deathStarDial=0x7f060000;
         public static final int deckbox=0x7f06000e;
         public static final int decreaseReserve=0x7f06000a;
@@ -51,30 +53,34 @@ public final class R {
         public static final int navigation=0x7f06000c;
         public static final int relativeLayout1=0x7f060002;
         public static final int reserve=0x7f060008;
-        public static final int reset=0x7f060010;
+        public static final int reset=0x7f060011;
         public static final int resources=0x7f06000d;
         public static final int rules=0x7f06000f;
+        public static final int rulesMenu=0x7f060012;
         public static final int textView1=0x7f060003;
         public static final int textView2=0x7f060005;
         public static final int textView3=0x7f060007;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int menu=0x7f030001;
+        public static final int about=0x7f030000;
+        public static final int deckbox=0x7f030001;
+        public static final int main=0x7f030002;
+        public static final int menu=0x7f030003;
+        public static final int rules=0x7f030004;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f040001;
-        public static final int Hello=0x7f040000;
-        public static final int ds_force=0x7f040003;
-        public static final int imperial_navy=0x7f040007;
-        public static final int jedi=0x7f040005;
-        public static final int ls_force=0x7f040002;
-        public static final int max_death_star=0x7f04000c;
-        public static final int min_death_star=0x7f04000b;
-        public static final int rebel_alliance=0x7f040004;
-        public static final int scum_and_villainy=0x7f040009;
-        public static final int sith=0x7f040008;
-        public static final int spies_and_smugglers=0x7f040006;
-        public static final int starting_reserve=0x7f04000a;
+        public static final int ApplicationName=0x7f050001;
+        public static final int Hello=0x7f050000;
+        public static final int ds_force=0x7f050003;
+        public static final int imperial_navy=0x7f050007;
+        public static final int jedi=0x7f050005;
+        public static final int ls_force=0x7f050002;
+        public static final int max_death_star=0x7f05000c;
+        public static final int min_death_star=0x7f05000b;
+        public static final int rebel_alliance=0x7f050004;
+        public static final int scum_and_villainy=0x7f050009;
+        public static final int sith=0x7f050008;
+        public static final int spies_and_smugglers=0x7f050006;
+        public static final int starting_reserve=0x7f05000a;
     }
 }

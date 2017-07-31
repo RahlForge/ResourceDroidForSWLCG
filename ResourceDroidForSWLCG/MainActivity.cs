@@ -2,9 +2,9 @@
 using Android.Widget;
 using Android.OS;
 using System;
-using System.Collections.Generic;
 using ResourceDroidForSWLCG;
 using Android.Views;
+using Android.Content;
 
 namespace SWLCGCounter
 {
@@ -143,26 +143,33 @@ namespace SWLCGCounter
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            if (item.ItemId == Resource.Id.reset)
+            switch (item.ItemId)
             {
-                // Reset Force alignment to Dark Side
-                ((Spinner)FindViewById<Spinner>(Resource.Id.forceAlignment)).SetSelection(0);
+                case Resource.Id.reset:
+                    // Reset Force alignment to Dark Side
+                    ((Spinner)FindViewById<Spinner>(Resource.Id.forceAlignment)).SetSelection(0);
 
-                // Reset Faction (triggers Reserve reset)
-                Spinner fs = FindViewById<Spinner>(Resource.Id.faction);
-                fs.Adapter = darkSideFactionAdapter;
-                fs.SetSelection(0);
+                    // Reset Faction (triggers Reserve reset)
+                    Spinner fs = FindViewById<Spinner>(Resource.Id.faction);
+                    fs.Adapter = darkSideFactionAdapter;
+                    fs.SetSelection(0);
 
-                // Reset Death Star Dial
-                ((Button)FindViewById<Button>(Resource.Id.deathStarDial)).Text = GetString(Resource.String.min_death_star);
+                    // Reset Death Star Dial
+                    ((Button)FindViewById<Button>(Resource.Id.deathStarDial)).Text = GetString(Resource.String.min_death_star);
 
-                // Reset Force Token
-                Button ft = FindViewById<Button>(Resource.Id.forceToken);
-                ft.SetBackgroundResource(Resource.Drawable.botf_light);
-                ft.Tag = GetString(Resource.String.ls_force);
+                    // Reset Force Token
+                    Button ft = FindViewById<Button>(Resource.Id.forceToken);
+                    ft.SetBackgroundResource(Resource.Drawable.botf_light);
+                    ft.Tag = GetString(Resource.String.ls_force);
 
-                return true;
+                    return true;
+
+                case Resource.Id.rules:
+                    var intent = new Intent(this, typeof(RulesActivity));
+                    StartActivity(intent);
+                    return true;
             }
+
             return base.OnOptionsItemSelected(item);
         }
 

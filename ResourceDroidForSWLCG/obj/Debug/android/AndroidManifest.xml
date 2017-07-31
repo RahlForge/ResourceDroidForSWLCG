@@ -11,6 +11,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="RulesActivity" android:name="md5b12aa9f3ab95f43eff127a7ab18cbfd2.RulesActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="ResourceDroidForSWLCG.ResourceDroidForSWLCG.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">

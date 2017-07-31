@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>7/21/2017 1:53:36 PM</xs:documentation>
+    <xs:documentation>7/31/2017 4:28:30 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -15,8 +15,6 @@
             <xs:enumeration value="assertive" />
             <xs:enumeration value="none" />
             <xs:enumeration value="polite" />
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -35,8 +33,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -55,8 +51,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -644,8 +638,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -664,8 +656,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -1336,8 +1326,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -2092,8 +2080,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -4034,8 +4020,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -4676,8 +4660,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -6560,8 +6542,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -9799,8 +9779,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -9859,8 +9837,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -10164,8 +10140,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -10224,8 +10198,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -10797,8 +10769,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -17373,6 +17343,7 @@
           <xs:restriction base="xs:string">
             <xs:enumeration value="@+id/" />
             <xs:enumeration value="@+id/checkBox1" />
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -17387,6 +17358,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -17709,8 +17681,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -17814,8 +17784,6 @@
             <xs:enumeration value="no" />
             <xs:enumeration value="noHideDescendants" />
             <xs:enumeration value="yes" />
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -18419,8 +18387,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -20367,6 +20333,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -20381,6 +20348,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -20458,6 +20426,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -20472,6 +20441,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -20549,6 +20519,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -20563,6 +20534,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -20640,6 +20612,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -20654,6 +20627,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -20731,6 +20705,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -20745,6 +20720,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -21062,6 +21038,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -21076,6 +21053,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -21153,6 +21131,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -21167,6 +21146,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -21244,6 +21224,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -21258,6 +21239,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -21375,6 +21357,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -21389,6 +21372,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -21908,6 +21892,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -21922,6 +21907,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -21999,6 +21985,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -22013,6 +22000,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -22090,6 +22078,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -22104,6 +22093,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -22181,6 +22171,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
+            <xs:enumeration value="@id/about" />
             <xs:enumeration value="@id/deathStarDial" />
             <xs:enumeration value="@id/deckbox" />
             <xs:enumeration value="@id/decreaseReserve" />
@@ -22195,6 +22186,7 @@
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
@@ -22629,8 +22621,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -23209,8 +23199,6 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="marquee_forever" />
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -23229,8 +23217,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -23341,8 +23327,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -23401,8 +23385,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -23421,8 +23403,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -23613,8 +23593,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -23673,8 +23651,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -26218,8 +26194,6 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="auto_fit" />
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -26254,8 +26228,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -28314,8 +28286,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -29512,8 +29482,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -29737,8 +29705,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -29757,8 +29723,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -31500,8 +31464,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -32707,8 +32669,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -33840,8 +33800,6 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -37156,8 +37114,6 @@
             <xs:enumeration value="textStart" />
             <xs:enumeration value="viewEnd" />
             <xs:enumeration value="viewStart" />
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
@@ -39006,8 +38962,6 @@
             <xs:enumeration value="locale" />
             <xs:enumeration value="ltr" />
             <xs:enumeration value="rtl" />
-            <xs:enumeration value="@integer/max_death_star" />
-            <xs:enumeration value="@integer/min_death_star" />
             <xs:enumeration value="@android:integer/config_longAnimTime" />
             <xs:enumeration value="@android:integer/config_mediumAnimTime" />
             <xs:enumeration value="@android:integer/config_shortAnimTime" />
