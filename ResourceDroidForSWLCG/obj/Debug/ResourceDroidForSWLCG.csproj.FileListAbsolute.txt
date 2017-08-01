@@ -31,3 +31,4 @@ C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\res\layout\deckbox.xml
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\res\values\about.xml
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\res\values\deckbox.xml
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\res\layout\rule.xml

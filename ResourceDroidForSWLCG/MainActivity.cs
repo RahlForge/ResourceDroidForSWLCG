@@ -165,7 +165,7 @@ namespace SWLCGCounter
                     return true;
 
                 case Resource.Id.rules:
-                    var intent = new Intent(this, typeof(RulesActivity));
+                    var intent = new Intent(this, typeof(RuleActivity));                   
                     StartActivity(intent);
                     return true;
             }
