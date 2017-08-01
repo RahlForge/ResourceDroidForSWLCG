@@ -55,8 +55,9 @@ public final class R {
         public static final int reserve=0x7f060008;
         public static final int reset=0x7f060011;
         public static final int resources=0x7f06000d;
+        public static final int rulebookView=0x7f060013;
         public static final int rules=0x7f06000f;
-        public static final int rulesMenu=0x7f060013;
+        public static final int rulesMenu=0x7f060014;
         public static final int textView=0x7f060012;
         public static final int textView1=0x7f060003;
         public static final int textView2=0x7f060005;
@@ -68,7 +69,8 @@ public final class R {
         public static final int main=0x7f030002;
         public static final int menu=0x7f030003;
         public static final int rule=0x7f030004;
-        public static final int rules=0x7f030005;
+        public static final int rulebook=0x7f030005;
+        public static final int rules=0x7f030006;
     }
     public static final class string {
         public static final int ApplicationName=0x7f04000c;

@@ -178,11 +178,14 @@ namespace ResourceDroidForSWLCG
 			// aapt resource value: 0x7f06000d
 			public const int resources = 2131099661;
 			
+			// aapt resource value: 0x7f060013
+			public const int rulebookView = 2131099667;
+			
 			// aapt resource value: 0x7f06000f
 			public const int rules = 2131099663;
 			
-			// aapt resource value: 0x7f060013
-			public const int rulesMenu = 2131099667;
+			// aapt resource value: 0x7f060014
+			public const int rulesMenu = 2131099668;
 			
 			// aapt resource value: 0x7f060012
 			public const int textView = 2131099666;
@@ -225,7 +228,10 @@ namespace ResourceDroidForSWLCG
 			public const int Rule = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Rules = 2130903045;
+			public const int Rulebook = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Rules = 2130903046;
 			
 			static Layout()
 			{

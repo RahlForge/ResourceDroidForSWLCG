@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>8/1/2017 1:12:40 PM</xs:documentation>
+    <xs:documentation>8/1/2017 2:24:33 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -17489,6 +17489,7 @@
             <xs:enumeration value="@id/reserve" />
             <xs:enumeration value="@id/reset" />
             <xs:enumeration value="@id/resources" />
+            <xs:enumeration value="@id/rulebookView" />
             <xs:enumeration value="@id/rules" />
             <xs:enumeration value="@id/rulesMenu" />
             <xs:enumeration value="@id/textView" />
