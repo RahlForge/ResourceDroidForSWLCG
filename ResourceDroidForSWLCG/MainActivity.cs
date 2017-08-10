@@ -2,11 +2,10 @@
 using Android.Widget;
 using Android.OS;
 using System;
-using ResourceDroidForSWLCG;
 using Android.Views;
 using Android.Content;
 
-namespace SWLCGCounter
+namespace ResourceDroidForSWLCG
 {
     [Activity(Label = "Resource Droid", MainLauncher = true, Icon = "@drawable/Icon")]
     public class MainActivity : Activity
@@ -49,6 +48,9 @@ namespace SWLCGCounter
             var decReserveButton = FindViewById<Button>(Resource.Id.decreaseReserve);
             decReserveButton.Click += DecReserveButton_Click;
 
+            var resetButton = FindViewById<Button>(Resource.Id.resetButton);
+            resetButton.Click += ResetButton_Click;
+
             lightSideFactionAdapter = ArrayAdapter.CreateFromResource(
                 this, Resource.Array.light_side_factions, Android.Resource.Layout.SimpleSpinnerItem);
             lightSideFactionAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
@@ -56,6 +58,25 @@ namespace SWLCGCounter
             darkSideFactionAdapter = ArrayAdapter.CreateFromResource(
                 this, Resource.Array.dark_side_factions, Android.Resource.Layout.SimpleSpinnerItem);
             darkSideFactionAdapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerDropDownItem);
+        }
+
+        private void ResetButton_Click(object sender, EventArgs e)
+        {
+            // Reset Force alignment to Dark Side
+            ((Spinner)FindViewById<Spinner>(Resource.Id.forceAlignment)).SetSelection(0);
+
+            // Reset Faction (triggers Reserve reset)
+            Spinner fs = FindViewById<Spinner>(Resource.Id.faction);
+            fs.Adapter = darkSideFactionAdapter;
+            fs.SetSelection(0);
+
+            // Reset Death Star Dial
+            ((Button)FindViewById<Button>(Resource.Id.deathStarDial)).Text = GetString(Resource.String.min_death_star);
+
+            // Reset Force Token
+            Button ft = FindViewById<Button>(Resource.Id.forceToken);
+            ft.SetBackgroundResource(Resource.Drawable.botf_light);
+            ft.Tag = GetString(Resource.String.ls_force);
         }
 
         private void DecReserveButton_Click(object sender, EventArgs e)
@@ -145,27 +166,10 @@ namespace SWLCGCounter
         {
             switch (item.ItemId)
             {
-                case Resource.Id.reset:
-                    // Reset Force alignment to Dark Side
-                    ((Spinner)FindViewById<Spinner>(Resource.Id.forceAlignment)).SetSelection(0);
-
-                    // Reset Faction (triggers Reserve reset)
-                    Spinner fs = FindViewById<Spinner>(Resource.Id.faction);
-                    fs.Adapter = darkSideFactionAdapter;
-                    fs.SetSelection(0);
-
-                    // Reset Death Star Dial
-                    ((Button)FindViewById<Button>(Resource.Id.deathStarDial)).Text = GetString(Resource.String.min_death_star);
-
-                    // Reset Force Token
-                    Button ft = FindViewById<Button>(Resource.Id.forceToken);
-                    ft.SetBackgroundResource(Resource.Drawable.botf_light);
-                    ft.Tag = GetString(Resource.String.ls_force);
-
-                    return true;
-
                 case Resource.Id.rules:
-                    var intent = new Intent(this, typeof(RuleActivity));                   
+                    var intent = new Intent();
+                    intent.SetClass(BaseContext, typeof(RulesAndErrataActivity));
+                    intent.SetFlags(ActivityFlags.ReorderToFront);
                     StartActivity(intent);
                     return true;
             }

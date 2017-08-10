@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>8/1/2017 2:24:33 PM</xs:documentation>
+    <xs:documentation>8/10/2017 1:58:29 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -16,9 +16,7 @@
             <xs:enumeration value="@layout/deckbox" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/menu" />
-            <xs:enumeration value="@layout/rule" />
-            <xs:enumeration value="@layout/rulebook" />
-            <xs:enumeration value="@layout/rules" />
+            <xs:enumeration value="@layout/rulesanderrata" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
             <xs:enumeration value="@android:layout/expandable_list_content" />
@@ -70,9 +68,7 @@
             <xs:enumeration value="@layout/deckbox" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/menu" />
-            <xs:enumeration value="@layout/rule" />
-            <xs:enumeration value="@layout/rulebook" />
-            <xs:enumeration value="@layout/rules" />
+            <xs:enumeration value="@layout/rulesanderrata" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
             <xs:enumeration value="@android:layout/expandable_list_content" />
@@ -124,9 +120,7 @@
             <xs:enumeration value="@layout/deckbox" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/menu" />
-            <xs:enumeration value="@layout/rule" />
-            <xs:enumeration value="@layout/rulebook" />
-            <xs:enumeration value="@layout/rules" />
+            <xs:enumeration value="@layout/rulesanderrata" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
             <xs:enumeration value="@android:layout/expandable_list_content" />
@@ -178,9 +172,7 @@
             <xs:enumeration value="@layout/deckbox" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/menu" />
-            <xs:enumeration value="@layout/rule" />
-            <xs:enumeration value="@layout/rulebook" />
-            <xs:enumeration value="@layout/rules" />
+            <xs:enumeration value="@layout/rulesanderrata" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
             <xs:enumeration value="@android:layout/expandable_list_content" />
@@ -228,27 +220,18 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@string/advancedConcepts" />
             <xs:enumeration value="@string/ApplicationName" />
-            <xs:enumeration value="@string/cardAbilities" />
-            <xs:enumeration value="@string/cardAnatomy" />
             <xs:enumeration value="@string/ds_force" />
-            <xs:enumeration value="@string/errata" />
-            <xs:enumeration value="@string/gameOverview" />
-            <xs:enumeration value="@string/gameOverviewText" />
+            <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/imperial_navy" />
             <xs:enumeration value="@string/jedi" />
             <xs:enumeration value="@string/ls_force" />
             <xs:enumeration value="@string/max_death_star" />
             <xs:enumeration value="@string/min_death_star" />
-            <xs:enumeration value="@string/otherRules" />
-            <xs:enumeration value="@string/playingTheGame" />
             <xs:enumeration value="@string/rebel_alliance" />
-            <xs:enumeration value="@string/resolvingAnEngagement" />
-            <xs:enumeration value="@string/resources" />
+            <xs:enumeration value="@string/rulebookPdf" />
             <xs:enumeration value="@string/scum_and_villainy" />
-            <xs:enumeration value="@string/setup" />
             <xs:enumeration value="@string/sith" />
             <xs:enumeration value="@string/spies_and_smugglers" />
             <xs:enumeration value="@string/starting_reserve" />
