@@ -42,33 +42,36 @@ These string-arrays will store the individual faction names [1] and starting res
         public static final int rulebook=0x7f02000b;
     }
     public static final class id {
-        public static final int about=0x7f060011;
-        public static final int deathStarDial=0x7f060000;
-        public static final int deckbox=0x7f06000f;
-        public static final int decreaseReserve=0x7f06000a;
-        public static final int errataButton=0x7f060013;
-        public static final int faction=0x7f060006;
-        public static final int forceAlignment=0x7f060004;
-        public static final int forceToken=0x7f060001;
-        public static final int gridView1=0x7f06000c;
-        public static final int increaseReserve=0x7f060009;
-        public static final int navigation=0x7f06000d;
-        public static final int relativeLayout1=0x7f060002;
-        public static final int reserve=0x7f060008;
-        public static final int resetButton=0x7f06000b;
-        public static final int resources=0x7f06000e;
-        public static final int rulebookButton=0x7f060012;
-        public static final int rules=0x7f060010;
-        public static final int textView1=0x7f060003;
-        public static final int textView2=0x7f060005;
-        public static final int textView3=0x7f060007;
+        public static final int about=0x7f060013;
+        public static final int cardDbView=0x7f060003;
+        public static final int cardSearchName=0x7f060002;
+        public static final int deathStarDial=0x7f060004;
+        public static final int deckbox=0x7f060011;
+        public static final int decreaseReserve=0x7f06000c;
+        public static final int errataButton=0x7f060015;
+        public static final int faction=0x7f060008;
+        public static final int forceAlignment=0x7f060006;
+        public static final int forceToken=0x7f060005;
+        public static final int gridView1=0x7f06000e;
+        public static final int increaseReserve=0x7f06000b;
+        public static final int navigation=0x7f06000f;
+        public static final int relativeLayout1=0x7f060000;
+        public static final int reserve=0x7f06000a;
+        public static final int resetButton=0x7f06000d;
+        public static final int resources=0x7f060010;
+        public static final int rulebookButton=0x7f060014;
+        public static final int rules=0x7f060012;
+        public static final int textView1=0x7f060001;
+        public static final int textView2=0x7f060007;
+        public static final int textView3=0x7f060009;
     }
     public static final class layout {
         public static final int about=0x7f030000;
-        public static final int deckbox=0x7f030001;
-        public static final int main=0x7f030002;
-        public static final int menu=0x7f030003;
-        public static final int rulesanderrata=0x7f030004;
+        public static final int carddbviewer=0x7f030001;
+        public static final int deckbox=0x7f030002;
+        public static final int main=0x7f030003;
+        public static final int menu=0x7f030004;
+        public static final int rulesanderrata=0x7f030005;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

@@ -2,13 +2,11 @@
 using Android.Widget;
 using Android.OS;
 using System;
-using Android.Views;
-using Android.Content;
 
 namespace ResourceDroidForSWLCG
 {
     [Activity(Label = "Resource Droid", MainLauncher = true, Icon = "@drawable/Icon")]
-    public class MainActivity : Activity
+    public class MainActivity : ResourceDroidActivity
     {
         private Spinner factionSpinner;
         private ArrayAdapter lightSideFactionAdapter;
@@ -154,27 +152,6 @@ namespace ResourceDroidForSWLCG
                 dsDial.Text = dialCount.ToString();
                 sender = dsDial;
             }
-        }
-
-        public override bool OnCreateOptionsMenu(IMenu menu)
-        {
-            MenuInflater.Inflate(Resource.Layout.Menu, menu);
-            return base.OnCreateOptionsMenu(menu);
-        }
-
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            switch (item.ItemId)
-            {
-                case Resource.Id.rules:
-                    var intent = new Intent();
-                    intent.SetClass(BaseContext, typeof(RulesAndErrataActivity));
-                    intent.SetFlags(ActivityFlags.ReorderToFront);
-                    StartActivity(intent);
-                    return true;
-            }
-
-            return base.OnOptionsItemSelected(item);
         }
 
         private bool balanceIsLight()

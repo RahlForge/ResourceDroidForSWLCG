@@ -53,10 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardDbViewerActivity.cs" />
     <Compile Include="ErrataActivity.cs" />
     <Compile Include="Faction.cs" />
     <Compile Include="MainActivity.cs" />
-    <Compile Include="MenuActivity.cs" />
+    <Compile Include="ResourceDroidActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RulebookActivity.cs" />
@@ -353,6 +354,9 @@
     <AndroidResource Include="Resources\layout\RulesAndErrata.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\CardDbViewer.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
@@ -394,7 +398,9 @@
     <AndroidResource Include="Resources\drawable\deathstar_150x150.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Menu.xml" />
+    <AndroidResource Include="Resources\layout\Menu.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\deckbox.png" />
