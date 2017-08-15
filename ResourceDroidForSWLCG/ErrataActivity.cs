@@ -23,9 +23,10 @@ namespace ResourceDroidForSWLCG
             // Create your application here            
             WebView webView = new WebView(this);
             webView.Settings.JavaScriptEnabled = true;
-            webView.Settings.PluginsEnabled = true;
-            webView.LoadUrl("https://docs.google.com/gview?embedded=true&url=" +
-                Resources.GetString(Resource.String.errataPdf));
+            webView.Settings.AllowFileAccessFromFileURLs = true;
+            webView.Settings.AllowUniversalAccessFromFileURLs = true;
+            webView.Settings.BuiltInZoomControls = true;
+            webView.LoadUrl("file:///android_asset/pdfjs/web/viewer.html?file=file:///android_asset/Content/" + Resources.GetString(Resource.String.errataPdf));
             SetContentView(webView);
         }
 

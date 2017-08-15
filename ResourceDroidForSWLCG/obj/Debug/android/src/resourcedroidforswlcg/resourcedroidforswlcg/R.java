@@ -12,7 +12,9 @@ public final class R {
         public static final int dark_side_factions=0x7f050008;
         public static final int faction_imperial_navy=0x7f050003;
         public static final int faction_jedi=0x7f050001;
-        /** These string-arrays will store the individual faction names [1] and starting reserves [2]
+        /** <string name="rulebookPdf">https://images-cdn.fantasyflightgames.com/filer_public/91/20/9120965f-51d5-4527-a933-893fbccfe376/star_wars_the_card_game_rulebook.pdf</string>
+    <string name="errataPdf">https://images-cdn.fantasyflightgames.com/filer_public/71/e4/71e4dd16-113e-48b2-b1bb-bdb69b1fd876/swc_faq_eng_v50.pdf</string>
+These string-arrays will store the individual faction names [1] and starting reserves [2]
          */
         public static final int faction_rebel_alliance=0x7f050000;
         public static final int faction_scum_and_villainy=0x7f050005;

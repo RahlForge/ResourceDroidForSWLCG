@@ -29,3 +29,4 @@ C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\uploadflags.txt
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\bin\Debug\ResourceDroidForSWLCG.dll.mdb
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\ResourceDroidForSWLCG.dll.mdb
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\ResourceDroidForSWLCG.csprojResolveAssemblyReference.cache

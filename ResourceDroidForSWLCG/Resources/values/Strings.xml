@@ -13,8 +13,10 @@
     <string name="starting_reserve">6</string>
     <string name="min_death_star">0</string>
     <string name="max_death_star">12</string>
-    <string name="rulebookPdf">https://images-cdn.fantasyflightgames.com/filer_public/91/20/9120965f-51d5-4527-a933-893fbccfe376/star_wars_the_card_game_rulebook.pdf</string>
-    <string name="errataPdf">https://images-cdn.fantasyflightgames.com/filer_public/71/e4/71e4dd16-113e-48b2-b1bb-bdb69b1fd876/swc_faq_eng_v50.pdf</string>
+    <string name="rulebookPdf">star_wars_the_card_game_rulebook.pdf</string>
+    <string name="errataPdf">swc_faq_eng_v50.pdf</string>    
+    <!--<string name="rulebookPdf">https://images-cdn.fantasyflightgames.com/filer_public/91/20/9120965f-51d5-4527-a933-893fbccfe376/star_wars_the_card_game_rulebook.pdf</string>
+    <string name="errataPdf">https://images-cdn.fantasyflightgames.com/filer_public/71/e4/71e4dd16-113e-48b2-b1bb-bdb69b1fd876/swc_faq_eng_v50.pdf</string>-->
     
     <!--These string-arrays will store the individual faction names [1] and starting reserves [2]-->
     <string-array name="faction_rebel_alliance">
