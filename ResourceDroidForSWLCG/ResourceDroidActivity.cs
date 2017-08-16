@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.OS;
 using Android.Views;
+using Android.Views.InputMethods;
 
 namespace ResourceDroidForSWLCG
 {
@@ -59,6 +60,21 @@ namespace ResourceDroidForSWLCG
             }
 
             return base.OnOptionsItemSelected(item);
+        }
+
+        public static void hideKeyboard(Activity activity)
+        {
+            InputMethodManager imm = (InputMethodManager)activity.GetSystemService(Activity.InputMethodService);
+
+            //Find the currently focused view, so we can grab the correct window token from it.
+            View view = activity.CurrentFocus;
+
+            //If no view currently has focus, create a new one, just so we can grab a window token from it
+            if (view == null)
+            {
+                view = new View(activity);
+            }
+            imm.HideSoftInputFromWindow(view.WindowToken, 0);
         }
     }
 }

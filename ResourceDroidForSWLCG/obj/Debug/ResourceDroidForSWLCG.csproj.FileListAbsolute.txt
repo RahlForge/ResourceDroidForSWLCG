@@ -31,3 +31,4 @@ C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\ResourceDroidForSWLCG.dll.mdb
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\ResourceDroidForSWLCG.csprojResolveAssemblyReference.cache
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\res\layout\carddbviewer.xml
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\res\layout\mydecks.xml

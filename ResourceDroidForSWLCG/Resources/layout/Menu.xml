@@ -13,7 +13,7 @@
             <item
                 android:id="@+id/deckbox"    
                 android:icon="@drawable/deckbox"
-                android:title="Deckbox" />
+                android:title="Card Search" />
             <item
                 android:id="@+id/rules"
                 android:icon="@drawable/rulebook"

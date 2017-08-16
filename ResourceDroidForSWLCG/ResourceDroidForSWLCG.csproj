@@ -54,9 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CardDbViewerActivity.cs" />
+    <Compile Include="EmbeddedWebViewClient.cs" />
     <Compile Include="ErrataActivity.cs" />
     <Compile Include="Faction.cs" />
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MyDecksActivity.cs" />
     <Compile Include="ResourceDroidActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -355,6 +357,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\CardDbViewer.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\MyDecks.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

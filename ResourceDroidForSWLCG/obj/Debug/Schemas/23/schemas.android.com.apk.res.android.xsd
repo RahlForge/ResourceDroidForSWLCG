@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>8/15/2017 2:34:59 PM</xs:documentation>
+    <xs:documentation>8/16/2017 4:20:33 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -3672,6 +3672,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -3726,6 +3727,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -4368,6 +4370,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -4930,6 +4933,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -6042,6 +6046,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -6357,6 +6362,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -11203,6 +11209,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -11257,6 +11264,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -11849,6 +11857,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -11903,6 +11912,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -11957,6 +11967,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -17216,6 +17227,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -17379,6 +17391,8 @@
             <xs:enumeration value="@id/forceToken" />
             <xs:enumeration value="@id/gridView1" />
             <xs:enumeration value="@id/increaseReserve" />
+            <xs:enumeration value="@id/linearLayout1" />
+            <xs:enumeration value="@id/myDeckList" />
             <xs:enumeration value="@id/navigation" />
             <xs:enumeration value="@id/relativeLayout1" />
             <xs:enumeration value="@id/reserve" />
@@ -17386,9 +17400,11 @@
             <xs:enumeration value="@id/resources" />
             <xs:enumeration value="@id/rulebookButton" />
             <xs:enumeration value="@id/rules" />
+            <xs:enumeration value="@id/searchButton" />
             <xs:enumeration value="@id/textView1" />
             <xs:enumeration value="@id/textView2" />
             <xs:enumeration value="@id/textView3" />
+            <xs:enumeration value="@id/toolbar1" />
             <xs:enumeration value="@android:id/accessibilityActionContextClick" />
             <xs:enumeration value="@android:id/accessibilityActionScrollDown" />
             <xs:enumeration value="@android:id/accessibilityActionScrollLeft" />
@@ -17727,6 +17743,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -18990,6 +19007,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -21528,6 +21546,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -21739,6 +21758,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -22007,6 +22027,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -22735,6 +22756,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -24716,6 +24738,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -26706,6 +26729,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -27733,6 +27757,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -31243,6 +31268,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -32553,6 +32579,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -33750,6 +33777,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -35485,6 +35513,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -35539,6 +35568,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -38771,6 +38801,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -38825,6 +38856,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -41013,6 +41045,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -41170,6 +41203,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
@@ -42331,6 +42365,7 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@string/ApplicationName" />
+            <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
             <xs:enumeration value="@string/errataPdf" />
             <xs:enumeration value="@string/Hello" />
