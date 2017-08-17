@@ -23,8 +23,6 @@ namespace ResourceDroidForSWLCG
 
             var webView = FindViewById<WebView>(Resource.Id.cardDbView);
             webView.Settings.JavaScriptEnabled = true;
-            webView.Settings.AllowFileAccessFromFileURLs = true;
-            webView.Settings.AllowUniversalAccessFromFileURLs = true;
             webView.Settings.BuiltInZoomControls = true;
             webView.Settings.DisplayZoomControls = false;
             webView.LoadUrl("http://www.cardgamedb.com/index.php/starwars/star-wars-deckbuilder");
@@ -46,7 +44,9 @@ namespace ResourceDroidForSWLCG
 
             var webView = FindViewById<WebView>(Resource.Id.cardDbView);
             webView.Settings.JavaScriptEnabled = true;
-            //webView.SetWebViewClient(new EmbeddedWebViewClient(webView));
+            webView.Settings.BuiltInZoomControls = true;
+            webView.Settings.DisplayZoomControls = false;
+            webView.SetWebViewClient(new EmbeddedWebViewClient(webView));
             webView.LoadUrl(searchUrl);
         }
     }

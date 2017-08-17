@@ -2,6 +2,7 @@ C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\Microsoft.CSharp.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\Mono.Android.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\Mono.Android.Export.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\mscorlib.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Core.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.dll
