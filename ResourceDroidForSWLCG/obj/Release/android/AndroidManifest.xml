@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="ResourceDroidForSWLCG.ResourceDroidForSWLCG" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="21" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <application android:label="ResourceDroidForSWLCG" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="Card Search" android:screenOrientation="portrait" android:name="md53c38f16ca54a591d0235126289ae8ac2.CardDbViewerActivity" />
+    <activity android:label="Resource Manager" android:screenOrientation="portrait" android:name="md53c38f16ca54a591d0235126289ae8ac2.ResourceManagerActivity" />
+    <activity android:label="Errata (v5.0)" android:screenOrientation="portrait" android:name="md53c38f16ca54a591d0235126289ae8ac2.ErrataActivity" />
+    <activity android:icon="@drawable/icon" android:label="Resource Droid for SWLCG" android:screenOrientation="portrait" android:name="md53c38f16ca54a591d0235126289ae8ac2.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="MyDecksActivity" android:screenOrientation="portrait" android:name="md53c38f16ca54a591d0235126289ae8ac2.MyDecksActivity" />
+    <activity android:label="ResourceDroidActivity" android:screenOrientation="portrait" android:name="md53c38f16ca54a591d0235126289ae8ac2.ResourceDroidActivity" />
+    <activity android:label="Core Rulebook" android:screenOrientation="portrait" android:name="md53c38f16ca54a591d0235126289ae8ac2.RulebookActivity" />
+    <activity android:label="Rules &amp; Errata" android:screenOrientation="portrait" android:name="md53c38f16ca54a591d0235126289ae8ac2.RulesAndErrataActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="ResourceDroidForSWLCG.ResourceDroidForSWLCG.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

@@ -6,10 +6,9 @@ C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\mscorlib.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Core.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Xml.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Xml.Linq.dll
-C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Runtime.dll
-C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.ComponentModel.Composition.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Threading.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Collections.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Collections.Concurrent.dll
@@ -19,8 +18,9 @@ C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\Mono.CSharp.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Reflection.Primitives.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\Mono.Security.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Debug\android\assets\System.ComponentModel.Composition.dll

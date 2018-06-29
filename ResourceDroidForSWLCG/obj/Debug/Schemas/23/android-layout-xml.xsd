@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>8/16/2017 4:20:33 PM</xs:documentation>
+    <xs:documentation>4/30/2018 3:22:47 PM</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -216,7 +216,7 @@
   </xs:complexType>
   <xs:element name="View" type="View">
     <xs:annotation>
-      <xs:documentation>Attributes that can be used with android.view.View or any of its subclasses. Also see .ViewGroup_Layout for attributes that are processed by the view's parent.</xs:documentation>
+      <xs:documentation>Runtime Type: android.view.View</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="View">
@@ -432,7 +432,7 @@
   </xs:complexType>
   <xs:element name="ViewGroup" type="ViewGroup">
     <xs:annotation>
-      <xs:documentation>Attributes that can be used with a android.view.ViewGroup or any of its subclasses. Also see .ViewGroup_Layout for attributes that this class processes in its children.</xs:documentation>
+      <xs:documentation>Runtime Type: android.view.ViewGroup</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="ViewGroup">
@@ -647,7 +647,7 @@
   </xs:complexType>
   <xs:element name="ViewStub" type="ViewStub">
     <xs:annotation>
-      <xs:documentation>A android.view.ViewStub lets you lazily include other XML layouts inside your application at runtime.</xs:documentation>
+      <xs:documentation>Runtime Type: android.view.ViewStub</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="ViewStub">
@@ -927,7 +927,7 @@
   </xs:complexType>
   <xs:element name="android.gesture.GestureOverlayView" type="android.gesture.GestureOverlayView">
     <xs:annotation>
-      <xs:documentation>GestureOverlayView specific attributes. These attributes are used to configure a GestureOverlayView from XML.</xs:documentation>
+      <xs:documentation>Runtime Type: android.gesture.GestureOverlayView</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="android.gesture.GestureOverlayView">
@@ -1004,7 +1004,7 @@
   </xs:complexType>
   <xs:element name="SlidingDrawer" type="SlidingDrawer">
     <xs:annotation>
-      <xs:documentation>SlidingDrawer specific attributes. These attributes are used to configure a SlidingDrawer from XML.</xs:documentation>
+      <xs:documentation>Runtime Type: android.widget.SlidingDrawer</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="SlidingDrawer">
@@ -1359,7 +1359,7 @@
   </xs:complexType>
   <xs:element name="fragment" type="fragment">
     <xs:annotation>
-      <xs:documentation>Attributes that can be used with &lt;fragment&gt; tags inside of the layout of an Activity. This instantiates the given android.app.Fragment and inserts its content view into the current location in the layout.</xs:documentation>
+      <xs:documentation>Runtime Type: android.app.Fragment</xs:documentation>
     </xs:annotation>
   </xs:element>
   <xs:complexType name="fragment">

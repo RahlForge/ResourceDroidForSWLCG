@@ -85,40 +85,61 @@ namespace ResourceDroidForSWLCG
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int botf_dark = 2130837504;
+			public const int battle_1080x1920 = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int botf_light = 2130837505;
+			public const int botf_dark = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int deathstar_100x100 = 2130837506;
+			public const int botf_light = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int deathstar_150x150 = 2130837507;
+			public const int deathstar_100x100 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int deathstar_200x200 = 2130837508;
+			public const int deathstar_150x150 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int deathstar_300x300 = 2130837509;
+			public const int deathstar_200x200 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int deathstar_400x400 = 2130837510;
+			public const int deathstar_300x300 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int deckbox = 2130837511;
+			public const int deathstar_400x400 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int focus = 2130837512;
+			public const int deckbox = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int Icon = 2130837513;
+			public const int focus = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int refresh = 2130837514;
+			public const int hangar_1080x1920 = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int rulebook = 2130837515;
+			public const int hangar_icon = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int holocron = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int Icon = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int launch_bay = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int luke_vader_1080x1920 = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int refresh = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int rulebook = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int yoda_1080x1920 = 2130837522;
 			
 			static Drawable()
 			{
@@ -133,44 +154,62 @@ namespace ResourceDroidForSWLCG
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060014
-			public const int about = 2131099668;
+			// aapt resource value: 0x7f060015
+			public const int about = 2131099669;
 			
-			// aapt resource value: 0x7f060004
-			public const int cardDbView = 2131099652;
+			// aapt resource value: 0x7f06002a
+			public const int addFocusButton = 2131099690;
 			
-			// aapt resource value: 0x7f060002
-			public const int cardSearchName = 2131099650;
+			// aapt resource value: 0x7f060024
+			public const int addResourceButton = 2131099684;
 			
-			// aapt resource value: 0x7f060005
-			public const int deathStarDial = 2131099653;
+			// aapt resource value: 0x7f06001b
+			public const int affiliationTextView = 2131099675;
 			
-			// aapt resource value: 0x7f060012
-			public const int deckbox = 2131099666;
-			
-			// aapt resource value: 0x7f06000d
-			public const int decreaseReserve = 2131099661;
-			
-			// aapt resource value: 0x7f060019
-			public const int errataButton = 2131099673;
-			
-			// aapt resource value: 0x7f060009
-			public const int faction = 2131099657;
-			
-			// aapt resource value: 0x7f060007
-			public const int forceAlignment = 2131099655;
+			// aapt resource value: 0x7f06001a
+			public const int alignmentTextView = 2131099674;
 			
 			// aapt resource value: 0x7f060006
-			public const int forceToken = 2131099654;
-			
-			// aapt resource value: 0x7f06000f
-			public const int gridView1 = 2131099663;
+			public const int cancelAddResourceButton = 2131099654;
 			
 			// aapt resource value: 0x7f06000c
-			public const int increaseReserve = 2131099660;
+			public const int cardDbView = 2131099660;
 			
-			// aapt resource value: 0x7f060015
-			public const int linearLayout1 = 2131099669;
+			// aapt resource value: 0x7f06000a
+			public const int cardSearchName = 2131099658;
+			
+			// aapt resource value: 0x7f06001c
+			public const int deathStarDialButton = 2131099676;
+			
+			// aapt resource value: 0x7f060013
+			public const int deckbox = 2131099667;
+			
+			// aapt resource value: 0x7f060020
+			public const int decreaseReserveButton = 2131099680;
+			
+			// aapt resource value: 0x7f06002c
+			public const int deleteResourceButton = 2131099692;
+			
+			// aapt resource value: 0x7f06002e
+			public const int errataButton = 2131099694;
+			
+			// aapt resource value: 0x7f06002b
+			public const int focusCountCell = 2131099691;
+			
+			// aapt resource value: 0x7f06001d
+			public const int forceTokenButton = 2131099677;
+			
+			// aapt resource value: 0x7f060019
+			public const int headerTableLayout = 2131099673;
+			
+			// aapt resource value: 0x7f060021
+			public const int increaseReserveButton = 2131099681;
+			
+			// aapt resource value: 0x7f06000d
+			public const int linearLayout1 = 2131099661;
+			
+			// aapt resource value: 0x7f060011
+			public const int main = 2131099665;
 			
 			// aapt resource value: 0x7f060017
 			public const int myDeckList = 2131099671;
@@ -178,35 +217,80 @@ namespace ResourceDroidForSWLCG
 			// aapt resource value: 0x7f060010
 			public const int navigation = 2131099664;
 			
-			// aapt resource value: 0x7f060000
-			public const int relativeLayout1 = 2131099648;
-			
-			// aapt resource value: 0x7f06000b
-			public const int reserve = 2131099659;
-			
 			// aapt resource value: 0x7f06000e
-			public const int resetButton = 2131099662;
+			public const int newGameButton = 2131099662;
 			
-			// aapt resource value: 0x7f060011
-			public const int resources = 2131099665;
+			// aapt resource value: 0x7f060007
+			public const int okAddResourceButton = 2131099655;
 			
-			// aapt resource value: 0x7f060018
-			public const int rulebookButton = 2131099672;
-			
-			// aapt resource value: 0x7f060013
-			public const int rules = 2131099667;
-			
-			// aapt resource value: 0x7f060003
-			public const int searchButton = 2131099651;
-			
-			// aapt resource value: 0x7f060001
-			public const int textView1 = 2131099649;
+			// aapt resource value: 0x7f060025
+			public const int refreshButton = 2131099685;
 			
 			// aapt resource value: 0x7f060008
-			public const int textView2 = 2131099656;
+			public const int relativeLayout1 = 2131099656;
 			
-			// aapt resource value: 0x7f06000a
-			public const int textView3 = 2131099658;
+			// aapt resource value: 0x7f060029
+			public const int removeFocusButton = 2131099689;
+			
+			// aapt resource value: 0x7f06001f
+			public const int reserveCountTextView = 2131099679;
+			
+			// aapt resource value: 0x7f06001e
+			public const int reserveLabelTextView = 2131099678;
+			
+			// aapt resource value: 0x7f060018
+			public const int resetButton = 2131099672;
+			
+			// aapt resource value: 0x7f060028
+			public const int resourceCountCell = 2131099688;
+			
+			// aapt resource value: 0x7f060004
+			public const int resourceCountEditText = 2131099652;
+			
+			// aapt resource value: 0x7f060027
+			public const int resourceNameCell = 2131099687;
+			
+			// aapt resource value: 0x7f060002
+			public const int resourceNameEditText = 2131099650;
+			
+			// aapt resource value: 0x7f060012
+			public const int resources = 2131099666;
+			
+			// aapt resource value: 0x7f060023
+			public const int resourcesLabelTextView = 2131099683;
+			
+			// aapt resource value: 0x7f060026
+			public const int resourcesListView = 2131099686;
+			
+			// aapt resource value: 0x7f06002d
+			public const int rulebookButton = 2131099693;
+			
+			// aapt resource value: 0x7f060014
+			public const int rules = 2131099668;
+			
+			// aapt resource value: 0x7f06000f
+			public const int savedGamesListView = 2131099663;
+			
+			// aapt resource value: 0x7f06000b
+			public const int searchButton = 2131099659;
+			
+			// aapt resource value: 0x7f060000
+			public const int tableLayout1 = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int tableRow1 = 2131099649;
+			
+			// aapt resource value: 0x7f060003
+			public const int tableRow2 = 2131099651;
+			
+			// aapt resource value: 0x7f060005
+			public const int tableRow3 = 2131099653;
+			
+			// aapt resource value: 0x7f060022
+			public const int tableRow4 = 2131099682;
+			
+			// aapt resource value: 0x7f060009
+			public const int textView1 = 2131099657;
 			
 			// aapt resource value: 0x7f060016
 			public const int toolbar1 = 2131099670;
@@ -228,22 +312,31 @@ namespace ResourceDroidForSWLCG
 			public const int About = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int CardDbViewer = 2130903041;
+			public const int AddResource = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Deckbox = 2130903042;
+			public const int CardDbViewer = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int Deckbox = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Menu = 2130903044;
+			public const int Main = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int MyDecks = 2130903045;
+			public const int Menu = 2130903045;
 			
 			// aapt resource value: 0x7f030006
-			public const int RulesAndErrata = 2130903046;
+			public const int MyDecks = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int ResourceManager = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int ResourceRowLayout = 2130903048;
+			
+			// aapt resource value: 0x7f030009
+			public const int RulesAndErrata = 2130903049;
 			
 			static Layout()
 			{
@@ -264,47 +357,50 @@ namespace ResourceDroidForSWLCG
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
 			
-			// aapt resource value: 0x7f04000f
-			public const int cardSearchUrl = 2130968591;
-			
-			// aapt resource value: 0x7f040003
-			public const int ds_force = 2130968579;
-			
-			// aapt resource value: 0x7f04000e
-			public const int errataPdf = 2130968590;
-			
-			// aapt resource value: 0x7f040007
-			public const int imperial_navy = 2130968583;
-			
-			// aapt resource value: 0x7f040005
-			public const int jedi = 2130968581;
-			
 			// aapt resource value: 0x7f040002
-			public const int ls_force = 2130968578;
+			public const int MainActivityLabel = 2130968578;
 			
-			// aapt resource value: 0x7f04000c
-			public const int max_death_star = 2130968588;
-			
-			// aapt resource value: 0x7f04000b
-			public const int min_death_star = 2130968587;
+			// aapt resource value: 0x7f040010
+			public const int cardSearchUrl = 2130968592;
 			
 			// aapt resource value: 0x7f040004
-			public const int rebel_alliance = 2130968580;
+			public const int ds_force = 2130968580;
 			
-			// aapt resource value: 0x7f04000d
-			public const int rulebookPdf = 2130968589;
-			
-			// aapt resource value: 0x7f040009
-			public const int scum_and_villainy = 2130968585;
+			// aapt resource value: 0x7f04000f
+			public const int errataHtml = 2130968591;
 			
 			// aapt resource value: 0x7f040008
-			public const int sith = 2130968584;
+			public const int imperial_navy = 2130968584;
 			
 			// aapt resource value: 0x7f040006
-			public const int spies_and_smugglers = 2130968582;
+			public const int jedi = 2130968582;
+			
+			// aapt resource value: 0x7f040003
+			public const int ls_force = 2130968579;
+			
+			// aapt resource value: 0x7f04000d
+			public const int max_death_star = 2130968589;
+			
+			// aapt resource value: 0x7f04000c
+			public const int min_death_star = 2130968588;
+			
+			// aapt resource value: 0x7f040005
+			public const int rebel_alliance = 2130968581;
+			
+			// aapt resource value: 0x7f04000e
+			public const int rulebookHtml = 2130968590;
 			
 			// aapt resource value: 0x7f04000a
-			public const int starting_reserve = 2130968586;
+			public const int scum_and_villainy = 2130968586;
+			
+			// aapt resource value: 0x7f040009
+			public const int sith = 2130968585;
+			
+			// aapt resource value: 0x7f040007
+			public const int spies_and_smugglers = 2130968583;
+			
+			// aapt resource value: 0x7f04000b
+			public const int starting_reserve = 2130968587;
 			
 			static String()
 			{

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
-    <string name="ApplicationName">ResourceDroidForSWLCG</string>
+    <string name="ApplicationName">Resource Droid for SWLCG</string>
+    <string name="MainActivityLabel">Launch Bay</string>
     <string name="ls_force">Light Side</string>
     <string name="ds_force">Dark Side</string>
     <string name="rebel_alliance">Rebel Alliance</string>
@@ -13,11 +14,9 @@
     <string name="starting_reserve">6</string>
     <string name="min_death_star">0</string>
     <string name="max_death_star">12</string>
-    <string name="rulebookPdf">star_wars_the_card_game_rulebook.pdf</string>
-    <string name="errataPdf">swc_faq_eng_v50.pdf</string>
+    <string name="rulebookHtml">file:///android_asset/Content/swlcg_core_rulebook/183b7370-48b9-11e8-b174-0cc47a792c0a_id_183b7370-48b9-11e8-b174-0cc47a792c0a.html</string>
+    <string name="errataHtml">file:///android_asset/Content/swlcg_faq_eng_v50/741c2f06-48c6-11e8-b174-0cc47a792c0a_id_741c2f06-48c6-11e8-b174-0cc47a792c0a.html</string>
     <string name="cardSearchUrl"><![CDATA[http://www.cardgamedb.com/index.php/starwars/star-wars-card-spoilers?&advanced=false&nm=thecard&or=name&vw=spoiler]]></string>
-    <!--<string name="rulebookPdf">https://images-cdn.fantasyflightgames.com/filer_public/91/20/9120965f-51d5-4527-a933-893fbccfe376/star_wars_the_card_game_rulebook.pdf</string>
-    <string name="errataPdf">https://images-cdn.fantasyflightgames.com/filer_public/71/e4/71e4dd16-113e-48b2-b1bb-bdb69b1fd876/swc_faq_eng_v50.pdf</string>-->
     
     <!--These string-arrays will store the individual faction names [1] and starting reserves [2]-->
     <string-array name="faction_rebel_alliance">

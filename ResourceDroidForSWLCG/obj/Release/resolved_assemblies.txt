@@ -1,0 +1,11 @@
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\ResourceDroidForSWLCG.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\Java.Interop.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\Microsoft.CSharp.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\Mono.Android.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\Mono.Android.Export.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\mscorlib.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\System.Core.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\System.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\System.Xml.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\System.Runtime.Serialization.dll
+C:\Users\david.rahl\documents\visual studio 2017\Projects\ResourceDroidForSWLCG\ResourceDroidForSWLCG\obj\Release\android\assets\Mono.Security.dll

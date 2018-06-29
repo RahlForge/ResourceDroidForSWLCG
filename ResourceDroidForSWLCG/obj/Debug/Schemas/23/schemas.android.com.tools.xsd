@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v23</xs:documentation>
-    <xs:documentation>8/16/2017 4:20:33 PM</xs:documentation>
+    <xs:documentation>4/30/2018 3:22:47 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -13,11 +13,14 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@layout/about" />
+            <xs:enumeration value="@layout/addresource" />
             <xs:enumeration value="@layout/carddbviewer" />
             <xs:enumeration value="@layout/deckbox" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/menu" />
             <xs:enumeration value="@layout/mydecks" />
+            <xs:enumeration value="@layout/resourcemanager" />
+            <xs:enumeration value="@layout/resourcerowlayout" />
             <xs:enumeration value="@layout/rulesanderrata" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -43,16 +46,6 @@
             <xs:enumeration value="@android:layout/simple_spinner_item" />
             <xs:enumeration value="@android:layout/test_list_item" />
             <xs:enumeration value="@android:layout/two_line_list_item" />
-            <xs:enumeration value="?android:attr/dialogCustomTitleDecorLayout" />
-            <xs:enumeration value="?android:attr/dialogTitleDecorLayout" />
-            <xs:enumeration value="?android:attr/dialogTitleIconsDecorLayout" />
-            <xs:enumeration value="?android:attr/preferenceLayoutChild" />
-            <xs:enumeration value="?android:attr/textEditNoPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSideNoPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSidePasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
-            <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
           </xs:restriction>
         </xs:simpleType>
       </xs:union>
@@ -67,11 +60,14 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@layout/about" />
+            <xs:enumeration value="@layout/addresource" />
             <xs:enumeration value="@layout/carddbviewer" />
             <xs:enumeration value="@layout/deckbox" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/menu" />
             <xs:enumeration value="@layout/mydecks" />
+            <xs:enumeration value="@layout/resourcemanager" />
+            <xs:enumeration value="@layout/resourcerowlayout" />
             <xs:enumeration value="@layout/rulesanderrata" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -97,16 +93,6 @@
             <xs:enumeration value="@android:layout/simple_spinner_item" />
             <xs:enumeration value="@android:layout/test_list_item" />
             <xs:enumeration value="@android:layout/two_line_list_item" />
-            <xs:enumeration value="?android:attr/dialogCustomTitleDecorLayout" />
-            <xs:enumeration value="?android:attr/dialogTitleDecorLayout" />
-            <xs:enumeration value="?android:attr/dialogTitleIconsDecorLayout" />
-            <xs:enumeration value="?android:attr/preferenceLayoutChild" />
-            <xs:enumeration value="?android:attr/textEditNoPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSideNoPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSidePasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
-            <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
           </xs:restriction>
         </xs:simpleType>
       </xs:union>
@@ -121,11 +107,14 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@layout/about" />
+            <xs:enumeration value="@layout/addresource" />
             <xs:enumeration value="@layout/carddbviewer" />
             <xs:enumeration value="@layout/deckbox" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/menu" />
             <xs:enumeration value="@layout/mydecks" />
+            <xs:enumeration value="@layout/resourcemanager" />
+            <xs:enumeration value="@layout/resourcerowlayout" />
             <xs:enumeration value="@layout/rulesanderrata" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -151,16 +140,6 @@
             <xs:enumeration value="@android:layout/simple_spinner_item" />
             <xs:enumeration value="@android:layout/test_list_item" />
             <xs:enumeration value="@android:layout/two_line_list_item" />
-            <xs:enumeration value="?android:attr/dialogCustomTitleDecorLayout" />
-            <xs:enumeration value="?android:attr/dialogTitleDecorLayout" />
-            <xs:enumeration value="?android:attr/dialogTitleIconsDecorLayout" />
-            <xs:enumeration value="?android:attr/preferenceLayoutChild" />
-            <xs:enumeration value="?android:attr/textEditNoPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSideNoPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSidePasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
-            <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
           </xs:restriction>
         </xs:simpleType>
       </xs:union>
@@ -175,11 +154,14 @@
         <xs:simpleType>
           <xs:restriction base="xs:string">
             <xs:enumeration value="@layout/about" />
+            <xs:enumeration value="@layout/addresource" />
             <xs:enumeration value="@layout/carddbviewer" />
             <xs:enumeration value="@layout/deckbox" />
             <xs:enumeration value="@layout/main" />
             <xs:enumeration value="@layout/menu" />
             <xs:enumeration value="@layout/mydecks" />
+            <xs:enumeration value="@layout/resourcemanager" />
+            <xs:enumeration value="@layout/resourcerowlayout" />
             <xs:enumeration value="@layout/rulesanderrata" />
             <xs:enumeration value="@android:layout/activity_list_item" />
             <xs:enumeration value="@android:layout/browser_link_context_header" />
@@ -205,16 +187,6 @@
             <xs:enumeration value="@android:layout/simple_spinner_item" />
             <xs:enumeration value="@android:layout/test_list_item" />
             <xs:enumeration value="@android:layout/two_line_list_item" />
-            <xs:enumeration value="?android:attr/dialogCustomTitleDecorLayout" />
-            <xs:enumeration value="?android:attr/dialogTitleDecorLayout" />
-            <xs:enumeration value="?android:attr/dialogTitleIconsDecorLayout" />
-            <xs:enumeration value="?android:attr/preferenceLayoutChild" />
-            <xs:enumeration value="?android:attr/textEditNoPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSideNoPasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSidePasteWindowLayout" />
-            <xs:enumeration value="?android:attr/textEditSuggestionItemLayout" />
-            <xs:enumeration value="?android:attr/windowActionBarFullscreenDecorLayout" />
           </xs:restriction>
         </xs:simpleType>
       </xs:union>
@@ -222,7 +194,7 @@
   </xs:attribute>
   <xs:attribute name="text">
     <xs:annotation>
-      <xs:documentation>Text to display.</xs:documentation>
+      <xs:documentation></xs:documentation>
     </xs:annotation>
     <xs:simpleType>
       <xs:union memberTypes="xs:string">
@@ -231,7 +203,7 @@
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/cardSearchUrl" />
             <xs:enumeration value="@string/ds_force" />
-            <xs:enumeration value="@string/errataPdf" />
+            <xs:enumeration value="@string/errataHtml" />
             <xs:enumeration value="@string/Hello" />
             <xs:enumeration value="@string/imperial_navy" />
             <xs:enumeration value="@string/jedi" />
@@ -239,7 +211,7 @@
             <xs:enumeration value="@string/max_death_star" />
             <xs:enumeration value="@string/min_death_star" />
             <xs:enumeration value="@string/rebel_alliance" />
-            <xs:enumeration value="@string/rulebookPdf" />
+            <xs:enumeration value="@string/rulebookHtml" />
             <xs:enumeration value="@string/scum_and_villainy" />
             <xs:enumeration value="@string/sith" />
             <xs:enumeration value="@string/spies_and_smugglers" />
@@ -277,7 +249,7 @@
   </xs:attribute>
   <xs:attribute name="visibility">
     <xs:annotation>
-      <xs:documentation>Controls the initial visibility of the view.</xs:documentation>
+      <xs:documentation></xs:documentation>
     </xs:annotation>
     <xs:simpleType>
       <xs:union memberTypes="xs:string">

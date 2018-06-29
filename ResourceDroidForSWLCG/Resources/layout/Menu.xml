@@ -7,6 +7,10 @@
         android:showAsAction="ifRoom">
         <menu>
             <item
+                android:id="@+id/main"
+                android:title="Launch Bay"
+                android:icon="@drawable/launch_bay" />
+            <item
                 android:id="@+id/resources"
                 android:icon="@drawable/focus"
                 android:title="Resources" />
@@ -20,7 +24,8 @@
                 android:title="Rules &amp; Errata" />
             <item
                 android:id="@+id/about"
-                android:title="About Resource Droid" />
+                android:title="About Resource Droid"
+                android:icon="@drawable/holocron" />
         </menu>
     </item>
 </menu>
